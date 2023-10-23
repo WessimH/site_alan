@@ -3,15 +3,17 @@ let observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         // Si l'élément est dans la zone visible
         if (entry.isIntersecting) {
-            window.scrollBy(0, 500);
-            // Vous pouvez arrêter d'observer l'élément si vous le souhaitez
-            observer.unobserve(entry.target);
+            // Centrez l'élément à l'écran
+            entry.target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
+
         }
     });
 });
 
-// Ciblez l'élément que vous souhaitez observer
-let article = document.getElementById('articleObserver');
-
-// Commencez à observer l'élément
-observer.observe(article);
+// Ciblez tous les éléments <article> pour l'observation
+document.querySelectorAll('article').forEach(article => {
+    observer.observe(article);
+});

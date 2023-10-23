@@ -1,20 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=League Spartan:700|League Spartan:400');
 
-h1{
+:root[data-theme="light"] {
+    --text: #000000;
+    --background: #ffffff;
+    --primary: #c02626;
+    --secondary: #f1b7b7;
+    --accent: #b72424;
+}
+
+:root[data-theme="dark"] {
+    --text: #ffffff;
+    --background: #000000;
+    --primary: #d93f3f;
+    --secondary: #480e0e;
+    --accent: #db4848;
+}
+
+body {
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
-    font-size: 3rem;
-    color: #fff;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    margin-top: 1rem;
+    background-color: var(--background);
+}
 
+h1, h2, h3, h4, h5 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    color: var(--text);
 }
-#logo{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: left;
-    align-items: center;
+
+html {
+    font-size: 100%;
 }
+
+/* 16px */
+
+h1 {
+    font-size: 4.210rem; /* 67.36px */
+}
+
+h2 {
+    font-size: 3.158rem; /* 50.56px */
+}
+
+h3 {
+    font-size: 2.369rem; /* 37.92px */
+}
+
+h4 {
+    font-size: 1.777rem; /* 28.48px */
+}
+
+h5 {
+    font-size: 1.333rem; /* 21.28px */
+}
+
+small {
+    font-size: 0.750rem; /* 12px */
+}
+
+
+
