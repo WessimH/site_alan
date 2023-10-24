@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c2c7201-4af5-43ac-bfe2-36e2c193b449" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js/modeSelector.js" afterDir="false" />
+    <list default="true" id="7c2c7201-4af5-43ac-bfe2-36e2c193b449" name="Changes" comment="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link">
+      <changelist_data name="Wessim.H" email="89280997+wessimh@users.noreply.github.com" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/LogoDark.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/screed_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/LogoLight.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/autoscroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoscroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modeSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modeSelector.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +29,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Wessim.H &lt;89280997+wessimh@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,7 +59,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/wamp64/www/site_alan",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/wamp64/www/site_alan/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +70,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\site_alan\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\site_alan\images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,8 +91,17 @@
       <workItem from="1698011134463" duration="504000" />
       <workItem from="1698011650730" duration="886000" />
       <workItem from="1698013534151" duration="1123000" />
-      <workItem from="1698099765626" duration="1307000" />
+      <workItem from="1698099765626" duration="4707000" />
     </task>
+    <task id="LOCAL-00001" summary="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link">
+      <option name="closed" value="true" />
+      <created>1698101322525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698101322525</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +109,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link" />
+    <option name="LAST_COMMIT_MESSAGE" value="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

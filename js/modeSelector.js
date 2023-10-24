@@ -13,8 +13,10 @@ document.addEventListener("DOMContentLoaded", function () {
         if (event.matches) {
             // L'utilisateur a changé pour le mode sombre
             document.documentElement.setAttribute('data-theme', 'dark');
+            document.getElementById('make-image').src = "images/LogoDark.jpg";
         } else {
             // L'utilisateur a changé pour le mode clair
+            document.getElementById('make-image').src = "images/LogoLight.jpg";
             document.documentElement.setAttribute('data-theme', 'light');
         }
     });
