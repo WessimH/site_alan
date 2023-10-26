@@ -57,9 +57,21 @@ h5 {
 small {
     font-size: 0.750rem; /* 12px */
 }
-
 nav a {
     color: var(--text);
 
 }
 
+nav a:hover {
+    color: var(--accent);
+}
+
+nav image {
+    width: 100px;
+    height: 100px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}

@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c2c7201-4af5-43ac-bfe2-36e2c193b449" name="Changes" comment="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link">
-      <changelist_data name="Wessim.H" email="89280997+wessimh@users.noreply.github.com" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/LogoDark.png" afterDir="false" />
+    <list default="true" id="7c2c7201-4af5-43ac-bfe2-36e2c193b449" name="Changes" comment="[fix] The logo change with the mode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/screed_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/LogoLight.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modeSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modeSelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/animations.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/animations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/include.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/include.js" afterDir="false" />
     </list>
+    <list id="bc9d62cc-d627-4f19-b86b-8ad0af49f6d2" name="Changes by Killian" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/wamp64/www/site_alan/images",
@@ -66,7 +63,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editing.templates",
+    "settings.editor.selected.configurable": "web.server",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,7 +88,10 @@
       <workItem from="1698011134463" duration="504000" />
       <workItem from="1698011650730" duration="886000" />
       <workItem from="1698013534151" duration="1123000" />
-      <workItem from="1698099765626" duration="4707000" />
+      <workItem from="1698099765626" duration="5252000" />
+      <workItem from="1698161658998" duration="2160000" />
+      <workItem from="1698335516665" duration="276000" />
+      <workItem from="1698335811365" duration="4041000" />
     </task>
     <task id="LOCAL-00001" summary="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link">
       <option name="closed" value="true" />
@@ -101,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698101322525</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[fix] The logo change with the mode">
+      <option name="closed" value="true" />
+      <created>1698114433419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698114433419</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +118,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link" />
-    <option name="LAST_COMMIT_MESSAGE" value="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link" />
+    <MESSAGE value="[fix] The logo change with the mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fix] The logo change with the mode" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
