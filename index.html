@@ -98,6 +98,11 @@
             color: var(--accent);
         }
 
+        .Title {
+            padding-top: 5em;
+
+        }
+
         .parent {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -106,6 +111,19 @@
             grid-row-gap: 0px;
         }
 
+        .vpnImage {
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+
+        .What {
+            padding-top: 5em;
+        }
+
+        #articleObserver {
+            background-color: var(--primary);
+            color: var(--background);
+        }
     </style>
 </head>
 <body>
@@ -123,25 +141,26 @@
             avec Screed vpn
         </h1>
         <script src="js/animations.js" type="text/javascript"></script>
-        <img alt="VPN" class="logo" src="images/vpn.png">
+
     </article>
     <article id="articleObserver">
-        <h2>Qu'est ce que Screed vpn ?</h2>
+        <div id>
+            <h2 class="What">Qu'est ce que Screed vpn ?</h2>
 
-        <aside>
-            <p>
-                Screed vpn est un service de réseau privé virtuel qui vous permet de
-                naviguer sur internet en toute sécurité et en toute confidentialité.
-            </p>
-        </aside>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur error ex hic nemo
+                omnis possimus quibusdam sit soluta, tempore! Aliquid aperiam debitis dolorem ducimus error harum iure
+                mollitia vel.</p>
+
+        </div>
     </article>
 </div>
 <script src="js/autoscroll.js" type="text/javascript"></script>
 <footer>
     <small>
-        <a href="index.php?page=about">About</a>
-        <a href="index.php?page=contact">Contact</a>
-        <a href="index.php?page=legal">Legal</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Legal</a>
     </small>
 </footer>
 </body>
