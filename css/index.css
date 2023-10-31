@@ -66,12 +66,16 @@ nav a:hover {
     color: var(--accent);
 }
 
-nav image {
+nav.image {
     width: 100px;
     height: 100px;
 }
 
-.logo {
-    width: 100px;
-    height: 100px;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: var(--text);
+    position: sticky;
 }
