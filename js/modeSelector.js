@@ -1,23 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Vérifier la préférence de l'utilisateur pour le mode couleur
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        // L'utilisateur préfère le mode sombre
-        document.documentElement.setAttribute('data-theme', 'dark');
-    } else {
-        // L'utilisateur préfère le mode clair ou n'a pas exprimé de préférence
-        document.documentElement.setAttribute('data-theme', 'light');
-    }
+    // Obtenir l'heure actuelle
+    const currentHour = new Date().getHours();
 
-    // Écoutez les changements de préférence de l'utilisateur
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
-        if (event.matches) {
-            // L'utilisateur a changé pour le mode sombre
-            document.documentElement.setAttribute('data-theme', 'dark');
-            document.getElementsByClassName('logo').src = "images/LogoDark.jpg";
-        } else {
-            // L'utilisateur a changé pour le mode clair
-            document.getElementById('make-image').src = "images/LogoLight.jpg";
-            document.documentElement.setAttribute('data-theme', 'light');
-        }
-    });
+    // Choisir le thème en fonction de l'heure
+    if (currentHour >= 18 || currentHour < 6) {
+        // Il est 18h ou plus, ou il est moins de 6h, donc on utilise le thème sombre
+        document.documentElement.setAttribute('data-theme', 'dark');
+        document.getElementsByClassName('logo')[0].src = "images/LogoDark.jpg";
+    } else {
+        // Il est entre 6h et 18h, donc on utilise le thème clair
+        document.documentElement.setAttribute('data-theme', 'light');
+        document.getElementById('make-image').src = "images/LogoLight.jpg";
+    }
 });
