@@ -7,134 +7,20 @@
 
     <title>Document</title>
     <script src="js/modeSelector.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css?family=League Spartan:700|League Spartan:400');
 
-        :root[data-theme="light"] {
-            --text: #000000;
-            --background: #ffffff;
-            --primary: #c02626;
-            --secondary: #f1b7b7;
-            --accent: #b72424;
-        }
-
-        :root[data-theme="dark"] {
-            --text: #ffffff;
-            --background: #000000;
-            --primary: #d93f3f;
-            --secondary: #480e0e;
-            --accent: #db4848;
-        }
-
-        body {
-            font-family: 'League Spartan', sans-serif;
-            font-weight: 400;
-            background-color: var(--background);
-        }
-
-        h1, h2, h3, h4, h5 {
-            font-family: 'League Spartan', sans-serif;
-            font-weight: 700;
-            color: var(--text);
-        }
-
-        html {
-            font-size: 100%;
-        }
-
-        /* 16px */
-
-        h1 {
-            font-size: 4.210rem; /* 67.36px */
-        }
-
-        h2 {
-            font-size: 3.158rem; /* 50.56px */
-        }
-
-        h3 {
-            font-size: 2.369rem; /* 37.92px */
-        }
-
-        h4 {
-            font-size: 1.777rem; /* 28.48px */
-        }
-
-        h5 {
-            font-size: 1.333rem; /* 21.28px */
-        }
-
-        small {
-            font-size: 0.750rem; /* 12px */
-        }
-
-        nav a {
-            color: var(--text);
-
-        }
-        nav a:hover {
-            transition: all 0.3s ease;
-            color: var(--accent);
-        }
-
-        nav.image {
-            width: 100px;
-            height: 100px;
-        }
-
-        nav {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: 1fr;
-            grid-column-gap: 10em;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem;
-            color: var(--text);
-            position: fixed;
-        }
-
-        #securitee_animation {
-            color: var(--accent);
-        }
-
-        .Title {
-            padding-top: 5em;
-
-        }
-
-        .parent {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            grid-auto-columns: 100vw;
-            grid-auto-rows: 100vh;
-
-        }
-
-        .vpnImage {
-            grid-column-start: 2;
-            grid-column-end: 2;
-
-        }
-
-        .What {
-            padding-top: 5em;
-        }
-
-        #articleObserver {
-            background-color: var(--primary);
-            color: var(--background);
-        }
     </style>
 </head>
 <body>
 <!-- "<div id="header" data-include="header.html"></div> <script src="js/include.js"></script> -->
+<div style="display: block">
 <nav>
     <a href="index.html"><img alt="scredlodo" class="logo" src="images/LogoLight.png" style="width: 100px;"></a>
     <a href="#">page 2</a>
     <a href="#">page 3</a>
 </nav>
+</div>
 <div class="parent">
     <article>
         <h1 class="Title">
@@ -146,8 +32,8 @@
 
     </article>
     <article id="articleObserver">
-        <div style=>
-            <h2 class="What">Qu'est ce que Screed vpn ?</h2>
+        <div class="What">
+            <h2>Qu'est ce que Screed vpn ?</h2>
 
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur consequuntur error ex hic nemo
@@ -160,9 +46,9 @@
 <script src="js/autoscroll.js" type="text/javascript"></script>
 <footer>
     <small>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Legal</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Legal</a>
     </small>
 </footer>
 </body>

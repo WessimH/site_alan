@@ -57,12 +57,14 @@ h5 {
 small {
     font-size: 0.750rem; /* 12px */
 }
+
 nav a {
     color: var(--text);
 
 }
 
 nav a:hover {
+    transition: all 0.3s ease;
     color: var(--accent);
 }
 
@@ -72,21 +74,67 @@ nav.image {
 }
 
 nav {
-    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10em;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     color: var(--text);
-    position: sticky;
-    height: 100vh;
+    height: 5rem;
 }
 
-footer {
-    display: grid;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    color: var(--text);
-    position: sticky;
+#securitee_animation {
+    color: var(--accent);
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade .fade2 {
+    animation: fade 300ms; /* Durée de l'animation mise à jour */
+}
+
+.parent {
     height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 100vh auto;
+    grid-column-gap: 10em;
+    grid-auto-columns: 100vw !important;
+    grid-auto-rows: 100vh !important;
+    justify-items: center; /* Alignement horizontal */
+    align-items: center; /* Alignement vertical */
+}
+
+.parent > * {
+    text-align: center; /* Alignement horizontal du texte */
+    vertical-align: middle; /* Alignement vertical du texte */
+}
+
+
+#articleObserver {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
 }

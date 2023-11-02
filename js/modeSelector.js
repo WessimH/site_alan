@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (currentHour >= 18 || currentHour < 6) {
         // Il est 18h ou plus, ou il est moins de 6h, donc on utilise le thème sombre
         document.documentElement.setAttribute('data-theme', 'dark');
-        document.getElementsByClassName('logo')[0].src = "images/LogoDark.jpg";
+        document.getElementsByClassName('logo')[0].src = "images/LogoDark.png";
     } else {
         // Il est entre 6h et 18h, donc on utilise le thème clair
         document.documentElement.setAttribute('data-theme', 'light');
