@@ -1,0 +1,121 @@
+* {
+    background-color: #2e2f30;
+    color: white;
+}
+
+main {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.presentation {
+    display: flex;
+}
+
+.presentation .element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.presentation iframe {
+    width: 500%;
+    height: 400px;
+
+}
+
+.premiere p {
+    width: 70%;
+    text-align: justify;
+    padding: 20px 0px 0px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+}
+.deuxieme {
+    width: 70%;
+    margin: 50px 100px 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.conteneur {
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.conteneurb{
+    border-radius: 38% 62% 82% 18% / 30% 34% 66% 70%  ;
+    background-color:#8f07c7;
+}
+.G{
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 1);
+}
+.conteneurb>p{
+    text-align: center;
+}
+
+.itemb, .conteneur, h2, .deuxieme, .item {
+    background-color: #cacbcb;
+}
+
+footer, .container {
+    background-color: #cacbcb;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+.container > li {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 650px) {
+    .conteneur {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+@media (max-width: 768PX) {
+   .presentation{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   .element>p{
+       width: 75%;
+       height: 200px;
+       overflow: auto;
+   }
+}
