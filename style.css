@@ -172,9 +172,13 @@ nav {
     height: 100vh; /* Ceci assure que le conteneur prend toute la hauteur de la fenêtre de visualisation */
 }
 
-#japlusdideedenom {
-    margin: 0;
-    padding-left: 20px; /* Ajustez la valeur du padding selon vos préférences */
+.japlusdideedenom {
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.jaiplusdideeContainer {
+    height: 100vh;
 }
 
 @media (max-width: 951px) {
@@ -182,3 +186,48 @@ nav {
         grid-column-gap: 10%;
     }
 }
+
+.PurshaseOptionsContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.PurshaseOptions {
+
+    padding: 0 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2%;
+}
+
+.PurshaseOptions > section {
+    text-align: center; /* Alignement horizontal du texte */
+    vertical-align: middle; /* Alignement vertical du texte */
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+.PurshaseOptions > section > p {
+    color: var(--text);
+    padding: 0 3vh;
+
+}
+
+.PurshaseOptions > section > div > a {
+    color: var(--text);
+    text-decoration: none;
+    border-radius: 10px;
+
+    width: 10vh;
+}
+
+.PurshaseOptions > section > div {
+    width: 400px;
+    padding-bottom: 10px;
+}
+

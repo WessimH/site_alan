@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c2c7201-4af5-43ac-bfe2-36e2c193b449" name="Changes" comment="[fix] grid">
-      <change afterPath="$PROJECT_DIR$/images/Fichier_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Fichier_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Fichier_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Fichier_4 (1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Fichier_5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Fichier_6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
+    <list default="true" id="7c2c7201-4af5-43ac-bfe2-36e2c193b449" name="Changes" comment="[fix] index.html responsive navbar&#10;[+] product.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Equipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/autoscroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/autoscroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -43,6 +33,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "WessimH"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="aaefbcdd-736d-4ee8-aecf-601f83849964" />
+        <option name="url" value="https://github.com/WessimH/site_alan.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -118,7 +122,7 @@
       <workItem from="1698914060005" duration="249000" />
       <workItem from="1698916938880" duration="2411000" />
       <workItem from="1699358439894" duration="715000" />
-      <workItem from="1699368923809" duration="4427000" />
+      <workItem from="1699368923809" duration="9444000" />
     </task>
     <task id="LOCAL-00001" summary="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link">
       <option name="closed" value="true" />
@@ -176,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698898354336</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[fix] index.html responsive navbar&#10;[+] product.html">
+      <option name="closed" value="true" />
+      <created>1699378874038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699378874038</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +214,8 @@
     <MESSAGE value="[fix] night mode and light mode" />
     <MESSAGE value="[fix] grid" />
     <MESSAGE value="autoscroll.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="autoscroll.js" />
+    <MESSAGE value="[fix] index.html responsive navbar&#10;[+] product.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="[fix] index.html responsive navbar&#10;[+] product.html" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
