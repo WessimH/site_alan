@@ -8,6 +8,7 @@
     --accent: #b72424;
 }
 
+
 :root[data-theme="dark"] {
     --text: #ffffff;
     --background: #000000;
@@ -20,6 +21,7 @@ body, html {
     height: 100%;
     margin: 0;
 }
+
 body {
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
@@ -173,4 +175,10 @@ nav {
 #japlusdideedenom {
     margin: 0;
     padding-left: 20px; /* Ajustez la valeur du padding selon vos préférences */
+}
+
+@media (max-width: 951px) {
+    nav {
+        grid-column-gap: 10%;
+    }
 }

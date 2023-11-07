@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c2c7201-4af5-43ac-bfe2-36e2c193b449" name="Changes" comment="[fix] grid">
+      <change afterPath="$PROJECT_DIR$/images/Fichier_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Fichier_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Fichier_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Fichier_4 (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Fichier_5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Fichier_6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Changes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Equipe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Equipe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <list id="bc9d62cc-d627-4f19-b86b-8ad0af49f6d2" name="Changes by Killian" comment="" />
@@ -53,6 +63,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -75,6 +86,7 @@
       <recent name="C:\wamp64\www\site_alan\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\site_alan\images" />
       <recent name="C:\wamp64\www\site_alan\images" />
     </key>
   </component>
@@ -105,6 +117,8 @@
       <workItem from="1698913656256" duration="387000" />
       <workItem from="1698914060005" duration="249000" />
       <workItem from="1698916938880" duration="2411000" />
+      <workItem from="1699358439894" duration="715000" />
+      <workItem from="1699368923809" duration="4427000" />
     </task>
     <task id="LOCAL-00001" summary="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link">
       <option name="closed" value="true" />
@@ -168,6 +182,17 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link" />
@@ -176,7 +201,8 @@
     <MESSAGE value="css" />
     <MESSAGE value="[fix] night mode and light mode" />
     <MESSAGE value="[fix] grid" />
-    <option name="LAST_COMMIT_MESSAGE" value="[fix] grid" />
+    <MESSAGE value="autoscroll.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="autoscroll.js" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
