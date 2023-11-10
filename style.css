@@ -8,6 +8,7 @@
     --accent: #b72424;
 }
 
+
 :root[data-theme="dark"] {
     --text: #ffffff;
     --background: #000000;
@@ -20,6 +21,7 @@ body, html {
     height: 100%;
     margin: 0;
 }
+
 body {
     font-family: 'League Spartan', sans-serif;
     font-weight: 400;
@@ -153,6 +155,7 @@ nav {
 
 .accent {
     color: var(--accent);
+    text-decoration: underline;
 }
 
 .center-container {
@@ -170,7 +173,72 @@ nav {
     height: 100vh; /* Ceci assure que le conteneur prend toute la hauteur de la fenêtre de visualisation */
 }
 
-#japlusdideedenom {
-    margin: 0;
-    padding-left: 20px; /* Ajustez la valeur du padding selon vos préférences */
+.japlusdideedenom {
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.jaiplusdideeContainer {
+    height: 100vh;
+}
+
+@media (max-width: 951px) {
+    nav {
+        grid-column-gap: 10%;
+    }
+
+    .PurshaseOptions {
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+.PurshaseOptionsContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.PurshaseOptions {
+
+    padding: 0 10vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2%;
+}
+
+.PurshaseOptions > section {
+    text-align: center; /* Alignement horizontal du texte */
+    vertical-align: middle; /* Alignement vertical du texte */
+    background-color: var(--primary);
+    border-radius: 10px;
+}
+
+.PurshaseOptions > section > p {
+    color: var(--text);
+    padding: 0 3vh;
+
+}
+
+.ButtonContainer > button {
+    color: var(--text);
+    background-color: var(--background);
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 50%;
+}
+
+.ButtonContainer {
+    padding: 3vh;
+}
+
+.ButtonContainer:active {
+    background-color: var(--primary);
+    color: var(--accent);
+    transition: all 0.3s ease;
 }
