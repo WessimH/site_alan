@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c2c7201-4af5-43ac-bfe2-36e2c193b449" name="Changes" comment="[+] product css">
+      <change afterPath="$PROJECT_DIR$/js/sortingAlgo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/support.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modeSelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modeSelector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -32,12 +35,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "WessimH"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;WessimH&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -120,7 +123,9 @@
       <workItem from="1698914060005" duration="249000" />
       <workItem from="1698916938880" duration="2411000" />
       <workItem from="1699358439894" duration="715000" />
-      <workItem from="1699368923809" duration="11652000" />
+      <workItem from="1699368923809" duration="28283000" />
+      <workItem from="1699608958458" duration="992000" />
+      <workItem from="1699610207451" duration="1344000" />
     </task>
     <task id="LOCAL-00001" summary="j'ai ajouté la detection des dark mode et du mode blanc&#10;[+] darkmode&#10;[+] light mode&#10;[fix] css link">
       <option name="closed" value="true" />
@@ -194,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699386682665</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[+] product css">
+      <option name="closed" value="true" />
+      <created>1699390331637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699390331637</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

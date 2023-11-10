@@ -152,10 +152,12 @@ nav {
 .desc {
     padding: 1em;
 }
-
+section {
+    padding: 0 1em;
+}
 .accent {
     color: var(--accent);
-    text-decoration: underline;
+    border-bottom: 2px solid var(--accent);
 }
 
 .center-container {
@@ -241,4 +243,11 @@ nav {
     background-color: var(--primary);
     color: var(--accent);
     transition: all 0.3s ease;
+}
+.circle {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
 }
